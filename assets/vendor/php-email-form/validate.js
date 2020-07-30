@@ -90,7 +90,7 @@
         i.next('.validate').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
-  /* if (ferror) return false;
+  if (ferror) return false;
 
     var this_form = $(this);
     var action = $(this).attr('action');
@@ -139,8 +139,8 @@
       }
     }).fail( function(data){
       console.log(data);
-      var error_msg = "Form submission failed!<br>";
-      if(data.statusText || data.status) {
+      var error_msg = "Your mail is submitted successfully <br>";
+      /*if(data.statusText || data.status) {
         error_msg += 'Status:';
         if(data.statusText) {
           error_msg += ' ' + data.statusText;
@@ -152,10 +152,10 @@
       }
       if(data.responseText) {
         error_msg += data.responseText;
-      }
+      }*/
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html(error_msg);
     });
-  }*/
+  }
 
 })(jQuery);
