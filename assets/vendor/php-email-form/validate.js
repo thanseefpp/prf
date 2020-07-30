@@ -155,6 +155,7 @@
       }*/
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html(error_msg);
+      setTimeout(function(){ location.replace ("https://itechsolution.org");},1200);
     });
   }
 
