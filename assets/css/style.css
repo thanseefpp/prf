@@ -13280,8 +13280,8 @@ figcaption {
   display: none;
 }
 .banner-details-wrapper-sticky .thumbnail img {
-  width: 180px;
-  height: 180px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   border: 5px solid #32363b;
   box-shadow: var(--shadow-1);
